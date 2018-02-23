@@ -1,0 +1,16 @@
+Host github.com
+  Hostname ssh.github.com
+  Port 443
+  IdentityFile ~/.ssh/id_ed25519
+
+Host *.countingup.com
+  User rancher
+  IdentityFile ~/.ssh/id_ed25519
+
+
+Host *.mikemoate.co.uk
+  User mikemoate
+  IdentityFile ~/.ssh/id_rsa
+
+Host *
+  UseKeyChain yes
