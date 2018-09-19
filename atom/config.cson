@@ -1,29 +1,20 @@
 "*":
   core:
-    projectHome: "/Users/mikemoate/code"
     telemetryConsent: "no"
-  editor:
-    softWrap: true
-    softWrapHangingIndent: 2
   "exception-reporting":
-    userId: "65f67c2a-53a3-4719-b32c-954f554b2794"
-  "file-watcher":
-    promptWhenChange: true
+    userId: "b3758749-f8ee-4e50-b5de-1fbd54a944ce"
   "go-plus":
     format:
       tool: "gofmt"
   "linter-terraform-syntax":
     useTerraformFormat: true
   "linter-ui-default":
-    panelHeight: 150
+    panelRepresents: "Entire Project"
     showPanel: true
-    showProviderName: true
-    statusBarRepresents: "Current File"
+    showTooltip: false
   minimap:
     plugins:
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
-  "tree-view":
-    hideIgnoredNames: true
   welcome:
     showOnStartup: false

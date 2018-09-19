@@ -1,35 +1,39 @@
-[default]
-output = json
-region = eu-west-2
-
 [profile master_admin]
 role_arn = arn:aws:iam::637734316743:role/administrator
+region = eu-west-2
 source_profile = default
 
 [profile development_admin]
 role_arn = arn:aws:iam::626738387532:role/administrator
+region = eu-west-2
 source_profile = default
 
 [profile qa_admin]
 role_arn = arn:aws:iam::656699441008:role/administrator
+region = eu-west-2
 source_profile = default
 
 [profile production_admin]
 role_arn = arn:aws:iam::962837472839:role/administrator
+region = eu-west-2
 source_profile = default
 
 [profile master_dev]
 role_arn = arn:aws:iam::637734316743:role/developer
+region = eu-west-2
 source_profile = default
 
 [profile development_dev]
 role_arn = arn:aws:iam::626738387532:role/developer
+region = eu-west-2
 source_profile = default
 
 [profile qa_dev]
 role_arn = arn:aws:iam::656699441008:role/developer
+region = eu-west-2
 source_profile = default
 
 [profile production_dev]
 role_arn = arn:aws:iam::962837472839:role/developer
+region = eu-west-2
 source_profile = default
