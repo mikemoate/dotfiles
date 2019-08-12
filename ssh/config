@@ -4,6 +4,8 @@ Host github.com
   IdentityFile ~/.ssh/id_ed25519
 
 Host *.countingup.com
+  AddKeysToAgent yes
+  ForwardAgent yes
   User rancher
   IdentityFile ~/.ssh/id_ed25519
 

@@ -1,4 +1,7 @@
 "*":
+  "atom-beautify":
+    json:
+      disabled: true
   "atom-ide-ui":
     "atom-ide-code-format":
       formatOnSave: true
@@ -21,8 +24,10 @@
   "linter-terraform-syntax":
     useTerraformFormat: true
   "linter-ui-default":
+    panelHeight: 214
     panelRepresents: "Entire Project"
     showTooltip: false
+  "markdown-preview": {}
   minimap:
     plugins:
       "highlight-selected": true
@@ -30,5 +35,8 @@
   "prettier-atom":
     formatOnSaveOptions:
       enabled: true
+      excludedGlobs: [
+        "*.tfstate"
+      ]
   welcome:
     showOnStartup: false
