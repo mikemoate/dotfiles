@@ -1,8 +1,9 @@
+abstract
 adoptopenjdk8
 beyond-compare
 docker
 dropbox
-github-desktop
+github
 goland
 google-backup-and-sync
 google-chrome
@@ -16,7 +17,6 @@ tnefs-enough
 vagrant
 virtualbox
 visual-studio-code
-vmware-remote-console
 whatsapp
 wireshark
 zoomus
