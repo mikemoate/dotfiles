@@ -1,6 +1,7 @@
 abstract
 adoptopenjdk8
 beyond-compare
+dbeaver-community
 docker
 dropbox
 github
@@ -10,6 +11,7 @@ google-chrome
 keybase
 knockknock
 postman
+rectangle
 slack
 spotify
 the-unarchiver
