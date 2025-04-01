@@ -1,18 +1,14 @@
+Include backend.config
+
 Host github.com
   Hostname ssh.github.com
   Port 443
   IdentityFile ~/.ssh/id_ed25519
-
-Host *.countingup.com
-  AddKeysToAgent yes
-  ForwardAgent yes
-  User rancher
-  IdentityFile ~/.ssh/id_ed25519
-
 
 Host *.mikemoate.co.uk
   User mikemoate
   IdentityFile ~/.ssh/id_rsa
 
 Host *
+  AddKeysToAgent yes
   UseKeyChain yes

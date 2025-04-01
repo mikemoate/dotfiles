@@ -4,15 +4,21 @@
 	name = Mike Moate
 	email = mike.moate@countingup.com
 [diff]
-	tool = bc3
+	tool = bc
 [merge]
-	tool = bc3
-[mergetool "bc3"]
+	tool = bc
+[mergetool "bc"]
 	trustExitCode = true
 [core]
 	excludesfile = /Users/mikemoate/.gitignore_global
+	autocrlf = input
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[url "git@github.com:Countingup/"]
+	insteadOf = https://github.com/Countingup/
+	insteadOf = http://github.com/Countingup/
+[pull]
+	ff = only

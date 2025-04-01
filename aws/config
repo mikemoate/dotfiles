@@ -1,3 +1,23 @@
+[profile master_ro]
+role_arn = arn:aws:iam::637734316743:role/ro_administrator
+region = eu-west-2
+source_profile = default
+
+[profile development_ro]
+role_arn = arn:aws:iam::626738387532:role/ro_administrator
+region = eu-west-2
+source_profile = default
+
+[profile qa_ro]
+role_arn = arn:aws:iam::656699441008:role/ro_administrator
+region = eu-west-2
+source_profile = default
+
+[profile production_ro]
+role_arn = arn:aws:iam::962837472839:role/ro_administrator
+region = eu-west-2
+source_profile = default
+
 [profile master_admin]
 role_arn = arn:aws:iam::637734316743:role/administrator
 region = eu-west-2
