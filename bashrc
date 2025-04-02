@@ -2,11 +2,12 @@
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 
-# Add homebrew sbin to path
+# Add homebrew to path
+eval "$(/opt/homebrew/bin/brew shellenv)"
 export PATH="/usr/local/sbin:$PATH"
 
 # Enable bash completion
-[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+[[ -r "/opt/homebrew/etc/profile.d/bash_completion.sh" ]] && . "/opt/homebrew/etc/profile.d/bash_completion.sh"
 
 # Make 'thefuck' more SFW
 eval $(thefuck --alias crap)
@@ -28,10 +29,10 @@ alias wget='curl -O'
 
 # Git aware prompt, with emoji!
 export GIT_PS1_SHOWDIRTYSTATE=1
-export PS1='\h:\W $(if [[ $USER == mikemoate ]]; then echo "🤖 "; fi)$(__git_ps1 "(%s)") \$ '
+export PS1='\h:\W $(if [[ $USER == mike.moate ]]; then echo "🤖 "; fi)$(__git_ps1 "(%s)") \$ '
 
 # FNM (https://github.com/Schniz/fnm)
-eval "$(fnm env --use-on-cd)"
+eval "$(fnm env --use-on-cd --shell bash)"
 
 # Android SDK
 export ANDROID_SDK=/Users/mikemoate/Android/Sdk

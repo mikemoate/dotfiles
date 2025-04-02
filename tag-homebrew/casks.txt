@@ -6,14 +6,12 @@ dbeaver-community
 dropbox
 finicky
 github
-google-chrome
 google-drive
 keybase
 postman
-slack
 spotify
 the-unarchiver
 visual-studio-code
 whatsapp
 wireshark
-zoom
+
